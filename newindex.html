@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pong Game</title>
+    <style>
+        body{
+            background-color: royalblue;
+        }
+        #pong{
+            border: 2px solid #FFF;
+            position: absolute;
+            margin :auto;
+            top:0;
+            right:0;
+            left:0;
+            bottom:0;
+        }
+        .btn-container {
+            text-align: center;
+        }
+        .btn {
+            margin-top: 10%;
+            width: 100px;
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="btn-container">
+    <button class="btn" onclick="changeGameState()">Restart Game</button>
+    </div>
+   <canvas id="pong" width="600" height="400"></canvas>
+   <script src="newpong.js"></script>
+</body>
+</html>
